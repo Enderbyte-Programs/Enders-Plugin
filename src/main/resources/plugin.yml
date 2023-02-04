@@ -1,0 +1,30 @@
+name: LastSeen
+version: 0.2.1
+main: enderbyteprograms.mcplugins.lastseen.LastSeen
+api-version: 1.19
+commands:
+  aliassay:
+    description: Pretend to be a different player in chat
+    usage: /aliassay <user> <message>
+    permission: lastseen.aliassay
+  epplugindebug:
+    description: Dump Enderbyte Programs Plugin data
+    usage: /epplugindebug
+    permission: lastseen.dumpdata
+  survival:
+    description: Change own gamemode to survival
+    usage: /survival
+    permission: lastseen.gamemode
+  kickeveryone:
+    description: Kick everyone from the server
+    usage: /kickeveryone <reason>
+    permission: lastseen.kick
+  creative:
+    description: Change own gamemode to creative
+    usage: /creative
+    permission: lastseen.gamemode
+  minecartme:
+    description: Give a minecart
+    usage: /minecartme
+    permission: lastseen.minecart
+
