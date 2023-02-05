@@ -1,6 +1,6 @@
-name: LastSeen
-version: 0.2.1
-main: enderbyteprograms.mcplugins.lastseen.LastSeen
+name: EndersPlugin
+version: 0.6.2
+main: enderbyteprograms.mcplugins.EndersPlugin.LastSeen
 api-version: 1.19
 commands:
   aliassay:
@@ -27,4 +27,28 @@ commands:
     description: Give a minecart
     usage: /minecartme
     permission: lastseen.minecart
+  smite:
+    description: SMITE A PLAYER WITH TH EPOWER OF ZEUS
+    usage: /smite <Player>
+    permission: lastseen.smite
+  lastseen:
+    description: Check when a player is last online
+    usage: /lastseen <Player>
+    permission: lastseen.lastseen
+  lsentity:
+    description: List entity counts in world
+    usage: /lsentity
+    permission: lastseen.lsentity
+  clearminecarts:
+    description: Clear minecarts
+    usage: /clearminecarts
+    permission: lastseen.clearmc
+  censor:
+    description: Add a word to the censored list
+    usage: /censor <Word>
+    permission: lastseen.censor
+  uncensor:
+    description: Remove a word from the censored list
+    usage: /uncensor <Word>
+    permission: lastseen.censor
 

@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>enderbyteprograms.mcplugins</groupId>
-    <artifactId>LastSeen</artifactId>
-    <version>0.1-BETA</version>
+    <artifactId>EndersPlugin</artifactId>
+    <version>1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
