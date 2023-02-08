@@ -1,4 +1,5 @@
 package enderbyteprograms.mcplugins.EndersPlugin;
+import enderbyteprograms.mcplugins.EndersPlugin.Speed.CommandSpeedometer;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
@@ -25,6 +26,7 @@ public class LastSeen extends JavaPlugin {
         this.getCommand("clearminecarts").setExecutor(new CommandClearMinecarts());
         this.getCommand("censor").setExecutor(new CommandCensor());
         this.getCommand("uncensor").setExecutor(new CommandUncensor());
+        this.getCommand("speedometer").setExecutor(new CommandSpeedometer());
         getServer().getPluginManager().registerEvents(new EventManager(),this);
         File writefile = new File(getDataFolder() , "lastseen.txt");
         try {
