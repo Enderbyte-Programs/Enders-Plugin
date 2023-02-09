@@ -1,0 +1,4 @@
+Version 1.0.1
+Published: 2023-02-08
+Type: Patch
+Fixed bug where you could not /kickeveryone with a message with spaces
