@@ -12,7 +12,7 @@ public class CommandKickEveryone implements CommandExecutor {
         if (args.length == 0) {
             msg = "You have been kicked";
         } else {
-            msg = args[0];
+            msg = String.join(" ",args);
         }
         for (Player p: Bukkit.getOnlinePlayers()) {
             p.kickPlayer(msg);

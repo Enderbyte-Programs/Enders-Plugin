@@ -1,7 +1,7 @@
+enderbyteprograms/mcplugins/EndersPlugin/UncensorTabComplete.class
+enderbyteprograms/mcplugins/EndersPlugin/Commandeplugininfo.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandMinecartme.class
 enderbyteprograms/mcplugins/EndersPlugin/Utilities.class
-enderbyteprograms/mcplugins/EndersPlugin/CommandLastseen.class
-enderbyteprograms/mcplugins/EndersPlugin/LastSeen.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandLastOnline.class
 enderbyteprograms/mcplugins/Main.class
 enderbyteprograms/mcplugins/EndersPlugin/PlayerData.class
@@ -10,6 +10,7 @@ enderbyteprograms/mcplugins/EndersPlugin/CommandCreative.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandKickEveryone.class
 enderbyteprograms/mcplugins/EndersPlugin/Speed/CommandSpeedometer.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandSmite.class
+enderbyteprograms/mcplugins/EndersPlugin/constants.class
 enderbyteprograms/mcplugins/EndersPlugin/blocklogsystem/BlockSystem.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandGiveMeAMinecart.class
 enderbyteprograms/mcplugins/EndersPlugin/LastSeenSystem.class
@@ -22,3 +23,4 @@ enderbyteprograms/mcplugins/EndersPlugin/CommandAliasSay.class
 enderbyteprograms/mcplugins/EndersPlugin/CensorSystem.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandClearMinecarts.class
 enderbyteprograms/mcplugins/EndersPlugin/CommandDebug.class
+enderbyteprograms/mcplugins/EndersPlugin/EndersPluginMain.class

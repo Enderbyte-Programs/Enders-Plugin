@@ -22,14 +22,14 @@ public class CommandSmite implements CommandExecutor {
             Player ps = (Player)sender;
             Player p = getPlayer(args[0]);
             p.setGameMode(GameMode.SURVIVAL);
-            World w = Bukkit.getWorld("old_server");
+            World w = p.getWorld();
             w.spawnEntity(p.getLocation(), EntityType.LIGHTNING);
             p.setHealth(0D);
             broadcastMessage(p.getDisplayName() + " was smote by "+ps.getDisplayName());
         } else {
             Player p = getPlayer(args[0]);
             p.setGameMode(GameMode.SURVIVAL);
-            World w = Bukkit.getWorld("old_server");
+            World w = p.getWorld();
             w.spawnEntity(p.getLocation(), EntityType.LIGHTNING);
             p.setHealth(0D);
             broadcastMessage(p.getDisplayName() + " was smote by SERVER");
