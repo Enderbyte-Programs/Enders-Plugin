@@ -2,3 +2,28 @@ Version 1.0.1
 Published: 2023-02-08
 Type: Patch
 Fixed bug where you could not /kickeveryone with a message with spaces
+This is the first version where you can download from Spigot
+
+Version 1.0
+Published: 2023-02-08
+Type: Epic Release
+Changed permissions namespace from lastseen to endersplugin
+Sorted commands in to new permissions
+Added /epplugininfo
+-Gives some plugin info
+
+Version 0.8.1
+Published: 2023-02-08
+Type: Small feature add
+Added TabCompleter to /uncensor
+Removed world name hardcoding to autoget
+Include nether and end in /clearminecart and /lsentity commands
+
+Version 0.8
+Published: 2023-02-07
+Type: Medium feature add
+Add speedometer
+Toggled with /speedometer
+Speedometer measures m/s
+
+=====END OF RECORD=====
